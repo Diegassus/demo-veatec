@@ -1,0 +1,5 @@
+# robots.txt para el dominio real (reemplazar "www.dominio.com.ar")
+User-agent: *
+Allow: /
+
+Sitemap: https://www.dominio.com.ar/sitemap.xml

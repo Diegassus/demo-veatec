@@ -1,0 +1,233 @@
+/* =========================================================
+   Wireframe: estilos base + header responsive
+   El layout de cada sección está inline porque es un wireframe;
+   cuando llegue la identidad visual conviene pasarlo a clases acá.
+   ========================================================= */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: #F4F4F2;
+  color: #1F2328;
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  overflow-wrap: break-word;
+}
+
+img, svg, video { max-width: 100%; height: auto; }
+
+a { color: #1F2328; }
+a:hover { color: #C2410C; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible {
+  outline: 3px solid #C2410C;
+  outline-offset: 2px;
+}
+
+input, select, textarea, button { max-width: 100%; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* Saltar al contenido (accesibilidad) */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+}
+.skip-link:focus {
+  left: 16px;
+  top: 16px;
+  z-index: 100;
+  padding: 12px 16px;
+  background: #1F2328;
+  color: #FFFFFF;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  position: relative;
+  z-index: 20;
+  background: #FFFFFF;
+  border-bottom: 1px solid #CDD1D6;
+}
+
+.topbar { background: #23272E; color: #E6E8EB; font-size: 13px; }
+.topbar a { color: #E6E8EB; text-decoration: none; }
+.topbar a:hover { color: #FFFFFF; text-decoration: underline; }
+.topbar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.topbar-group { display: flex; flex-wrap: wrap; gap: 6px 24px; }
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 32px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  color: #1F2328;
+  text-decoration: none;
+}
+.brand-logo {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #8A919C;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: #4B5563;
+}
+.brand-name { font-weight: 700; font-size: 18px; }
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 4px 24px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 0;
+  font-size: 15px;
+  color: #1F2328;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.nav-link[aria-current="page"] { font-weight: 600; border-bottom-color: #1F2328; }
+
+/* Submenú de Servicios */
+.has-sub { position: relative; }
+.has-sub > .nav-link::after { content: " ▾"; }
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -16px;
+  z-index: 10;
+  min-width: 280px;
+  margin: 0;
+  padding: 8px 0;
+  list-style: none;
+  background: #FFFFFF;
+  border: 1px solid #CDD1D6;
+}
+.has-sub:hover .sub-menu,
+.has-sub:focus-within .sub-menu { display: block; }
+.sub-menu a { display: block; padding: 10px 16px; color: #1F2328; text-decoration: none; }
+.sub-menu a:hover { background: #F4F4F2; }
+.sub-menu .sub-glp { color: #9A3412; font-weight: 600; }
+
+/* Servicio prioritario en el menú */
+.nav-glp {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1.5px solid #C2410C;
+  border-radius: 22px;
+  background: #FBEDE6;
+  color: #9A3412;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-glp .dot { width: 8px; height: 8px; border-radius: 4px; background: #C2410C; }
+.nav-glp[aria-current="page"] { background: #C2410C; color: #FFFFFF; }
+.nav-glp[aria-current="page"] .dot { background: #FFFFFF; }
+
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 20px;
+  border-radius: 4px;
+  background: #1F2328;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.nav-cta:hover { color: #FFFFFF; background: #000000; }
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 1.5px solid #1F2328;
+  border-radius: 4px;
+  background: #FFFFFF;
+  color: #1F2328;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ---------- Tablet y celular: menú hamburguesa ---------- */
+@media (max-width: 1080px) {
+  .header-main { flex-wrap: wrap; }
+  .nav-toggle { display: inline-flex; }
+  .main-nav { flex-basis: 100%; }
+  .js .main-nav { display: none; }
+  .js .site-header.is-open .main-nav { display: block; }
+
+  .nav-list { flex-direction: column; align-items: stretch; gap: 0; padding: 4px 0; }
+  .nav-list > li { border-top: 1px solid #E6E8EB; }
+  .nav-link { display: flex; align-items: center; min-height: 48px; padding: 0; border-bottom: 0; font-size: 17px; }
+  .nav-link[aria-current="page"] { box-shadow: inset 4px 0 0 #1F2328; padding-left: 12px; }
+
+  .has-sub > .nav-link::after { content: ""; }
+  .sub-menu { display: block; position: static; min-width: 0; padding: 0 0 8px 16px; border: 0; }
+  .sub-menu a { padding: 12px 0; }
+
+  .nav-glp-item { order: -1; border-top: 0 !important; padding: 12px 0; }
+  .nav-glp { width: 100%; justify-content: center; min-height: 48px; font-size: 16px; }
+  .nav-cta-item { padding: 12px 0 4px; }
+  .nav-cta { width: 100%; min-height: 48px; font-size: 16px; }
+}
+
+@media (max-width: 700px) {
+  .hide-sm { display: none !important; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
