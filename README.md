@@ -1,7 +1,7 @@
-# Veatec: sitio institucional (wireframe)
+# Veatec: sitio institucional (demo)
 
-Wireframe de **media fidelidad** del sitio de Veatec: ensayos no destructivos (END), inspecciones técnicas y rehabilitación de esferas de GLP.
-Define la estructura, la navegación, el comportamiento responsive y la base de SEO. **Todavía no tiene la identidad visual, las imágenes ni los textos finales.**
+Demo navegable del sitio de **Veatec · Auditorías técnicas e inspecciones**: auditorías de seguridad, inspecciones técnicas, rehabilitación de equipos de GLP y ensayos no destructivos.
+Ya incluye la identidad del logo, los contenidos del **Feedback 01**, las fotos de obra y los logos de clientes.
 
 ## Cómo verlo
 
@@ -15,67 +15,74 @@ Define la estructura, la navegación, el comportamiento responsive y la base de 
 | Inicio | `index.html` |
 | Empresa | `empresa.html` |
 | Servicios | `servicios.html` |
+| ↳ Inspecciones técnicas (Res. 277/25 · API 653) | `inspecciones-tecnicas.html` |
+| ↳ Auditorías de seguridad (Res. 404/94 · Res. 1102/04) | `auditorias-de-seguridad.html` |
+| ↳ **Rehabilitación de equipos de GLP** (servicio destacado) | `rehabilitacion-equipos-glp.html` |
 | ↳ Ensayos no destructivos | `ensayos-no-destructivos.html` |
-| ↳ Inspecciones técnicas | `inspecciones-tecnicas.html` |
-| ↳ **Rehabilitación de esferas de GLP** (servicio prioritario) | `rehabilitacion-esferas-glp.html` |
 | Proyectos | `proyectos.html` |
-| ↳ Caso de estudio | `caso-estudio.html` |
+| ↳ Caso de estudio (TK 525 · Pampa Energía) | `caso-estudio.html` |
 | Contacto | `contacto.html` |
+
+`rehabilitacion-esferas-glp.html` ahora solo redirige a la página nueva, porque el servicio se renombró por pedido del cliente.
 
 ```
 /
-├── *.html              9 páginas
-├── css/wireframe.css   estilos base y header responsive
-├── js/main.js          menú hamburguesa
+├── *.html
+├── css/estilos.css           estilos del sitio (variables de marca al inicio)
+├── js/main.js                menú móvil, preselección de servicio, aviso de formularios
 ├── js/filtro-proyectos.js
-├── favicon.svg         provisorio
-├── sitemap.xml
-├── robots.txt
-└── .htaccess           HTTPS, compresión y caché para el hosting Apache
+├── img/marca/                logo vectorizado (SVG), isotipo, imagen para redes, íconos
+├── img/fotos/                fotos de obra optimizadas (WebP en 480, 960 y 1600 px)
+├── img/clientes/             logos de clientes recortados y normalizados
+├── favicon.svg
+├── sitemap.xml · robots.txt
+└── .htaccess                 HTTPS, redirecciones, compresión y caché (hosting Apache)
 ```
 
-## Responsive
+## Identidad visual
 
-- **Menú:** en pantallas de hasta 1080 px se colapsa en un botón *Menú* (hamburguesa). El acceso a Esferas GLP queda primero. Sin JavaScript, el menú se muestra igual.
-- **Contenido:** los títulos, los espaciados y las alturas de imagen se escalan de forma fluida con `clamp()`. Las grillas se reacomodan solas según el ancho.
-- **Probado** en 320, 390, 768, 1024 y 1440 px, sin scroll horizontal.
-- **Accesibilidad:** áreas táctiles de 44 px o más, enlace *Saltar al contenido* y foco visible al navegar con teclado.
+**Colores (tomados del logo)**
 
-## SEO incluido
+| Uso | Color |
+|---|---|
+| Verde Veatec | `#5FC36F` |
+| Verde claro | `#ACD678` |
+| Verde solape | `#3DA14E` |
+| Gris del isotipo | `#565656` |
+| Negro | `#111311` |
+| Verde para texto sobre blanco (contraste accesible) | `#2B7A3A` |
 
-- `<title>` y `meta description` únicos en cada página: títulos de hasta 60 caracteres y descripciones de hasta 155, con la palabra clave al principio.
-- Un solo `<h1>` por página, jerarquía de títulos sin saltos y `<main>`, `<nav>`, `<header>` y `<footer>` semánticos.
-- `canonical`, Open Graph y Twitter Card.
-- Datos estructurados (JSON-LD de schema.org):
-  - `ProfessionalService` y `WebSite` en Inicio.
-  - `Service` en cada página de servicio.
-  - `FAQPage` en Esferas GLP.
-  - `BreadcrumbList` en todas las páginas internas.
-  - `Article` en el caso de estudio.
-- URLs descriptivas, `sitemap.xml` y `robots.txt`.
-- Tipografías con `preconnect` y `display=swap` para no bloquear la carga. JavaScript con `defer`.
-- `.htaccess` con redirección a HTTPS + www, compresión y caché, para mejorar Core Web Vitals.
+**Tipografías propuestas** (el cliente no tiene definidas):
+- **League Spartan** para títulos: es geométrica y acompaña el logotipo.
+- **Open Sans** para el texto: se parece a la bajada del logo.
 
-## ⚠️ Antes de publicar en el dominio real
+Las dos son de Google Fonts y gratuitas.
 
-1. **Quitar** la línea `<meta name="robots" content="noindex, nofollow">` de cada página. Está puesta para que la demo de GitHub Pages no se indexe y no compita con el sitio real como contenido duplicado.
-2. **Reemplazar** `https://www.dominio.com.ar` por el dominio real en todo el proyecto (buscar y reemplazar), incluidos `sitemap.xml` y `robots.txt`.
-3. **Completar** los datos `[entre corchetes]` del JSON-LD: teléfono, dirección y redes. Tienen que coincidir exactamente con el perfil de Google Business.
-4. **Agregar** `img/og-default.jpg` (1200 × 630) y `img/logo.png`.
-5. **Imágenes reales:** usar `<img>` en formato WebP, con `alt` descriptivo (por ejemplo, "Rehabilitación de esfera de GLP de 1000 m³ en planta de…"), `width` y `height` declarados, y `loading="lazy"` en todas menos la primera de cada página.
-6. **Registrar** el sitio en Google Search Console, enviar el `sitemap.xml` y crear o verificar el perfil de Google Business. Para búsquedas locales, esto pesa tanto como el sitio.
+**Logo**
+- `img/marca/logo-veatec.svg`: versión completa sobre fondo claro.
+- `img/marca/logo-veatec-negativo.svg`: versión para fondo oscuro (propuesta).
+- `img/marca/logo-veatec-compacto.svg`: sin bajada, para el header.
+- `img/marca/isotipo-veatec.svg`: solo los triángulos, para el favicon.
+
+El logo se vectorizó a partir del PNG. Los triángulos y los colores son exactos. Las letras de VEATEC se redibujaron sobre el original. La bajada "Auditorías técnicas e inspecciones" se compuso con una tipografía similar (Inter), porque la imagen era muy chica para trazarla. **Si existe el archivo original (AI, EPS, PDF o SVG), conviene reemplazarlo.**
 
 ## Pendiente del cliente
 
-- Logo, colores y tipografías.
-- Técnicas END, tipos de inspección y normas con las que trabajan.
-- Alcance real y proceso del servicio de esferas.
-- Fotos de obra y casos reales con datos.
-- Contacto, WhatsApp y zona de cobertura. Si trabajan en una región concreta, sumarla a los títulos y al H1: por ejemplo, "Ensayos no destructivos en Neuquén".
+- Presentación de la empresa: historia, objetivo, actualidad y enfoque.
+- Descripciones de cada ensayo no destructivo (9 técnicas).
+- Descripción de los tipos de equipos de GLP y del paso de relevamiento.
+- Datos del caso TK 525 (fecha, ensayos, desafío, solución, resultados) y cifras: equipos rehabilitados, m³, días de parada.
+- Respuestas pendientes de las preguntas frecuentes de GLP.
+- Casillas de correo por servicio: hoy las consultas técnicas van a `tecnica@` y las generales a `info@`.
+
+## Antes de publicar en www.veatec.com.ar
+
+1. **Quitar** `<meta name="robots" content="noindex, nofollow">` de cada página. Está puesta para que la demo de GitHub no compita con el sitio real en Google.
+2. **Formularios:** pasarlos a PHP con PHPMailer, usando el SMTP de la cuenta de correo de Veatec. Cada servicio envía al correo que corresponda y se suma un honeypot (ya incluido) o reCAPTCHA.
+3. **Tipografías:** opcionalmente, alojarlas en el hosting en lugar de Google Fonts. Mejora la velocidad y evita depender de un tercero.
+4. **Google:** registrar el sitio en Search Console y enviar `sitemap.xml`. Crear o verificar el perfil de Google Business con la misma dirección y los mismos teléfonos del sitio.
 
 ## Paso a PHP (hosting toservers)
 
-1. Mover el bloque `HEADER` a `includes/header.php` y el `FOOTER` a `includes/footer.php`. El `<title>`, la `description`, el `canonical` y el JSON-LD se pasan como variables por página.
-2. Renombrar las páginas a `.php`. Para mantener URLs limpias, sin la extensión, agregar las reglas correspondientes en `.htaccess`.
-3. Pasar los estilos inline a clases en `css/`, una vez definida la identidad visual.
-4. Hacer que los formularios envíen por PHPMailer, usando el SMTP de la cuenta de correo de la empresa. Agregar protección antispam con honeypot o reCAPTCHA.
+1. Los bloques marcados `HEADER` y `FOOTER` pasan a `includes/header.php` y `includes/footer.php`. El título, la descripción y el JSON-LD de cada página se pasan como variables.
+2. Renombrar las páginas a `.php` y mantener URLs limpias con `.htaccess`.

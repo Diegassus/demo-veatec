@@ -1,5 +1,5 @@
-# robots.txt para el dominio real (reemplazar "www.dominio.com.ar")
+# robots.txt para www.veatec.com.ar
 User-agent: *
 Allow: /
 
-Sitemap: https://www.dominio.com.ar/sitemap.xml
+Sitemap: https://www.veatec.com.ar/sitemap.xml

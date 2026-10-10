@@ -1,5 +1,5 @@
 # =========================================================
-# Configuración para el hosting Apache (toservers).
+# Configuración para el hosting Apache (toservers) de www.veatec.com.ar.
 # GitHub Pages ignora este archivo; aplica recién en el dominio real.
 # =========================================================
 
@@ -12,6 +12,9 @@ Options -Indexes
   RewriteCond %{HTTP_HOST} !^www\. [NC]
   RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
   RewriteRule ^ https://www.%1%{REQUEST_URI} [L,R=301]
+
+  # URL renombrada por pedido del cliente
+  RewriteRule ^rehabilitacion-esferas-glp\.html$ /rehabilitacion-equipos-glp.html [L,R=301]
 
   # /index.html -> /
   RewriteCond %{THE_REQUEST} \s/+index\.html[\s?] [NC]
