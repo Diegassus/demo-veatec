@@ -55,18 +55,9 @@
 <body>
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <!-- ===== HEADER (en PHP: includes/header.php) ===== -->
-<div class="topbar">
-<div class="container topbar-inner">
-<div class="topbar-group">
-<a href="tel:+5491163644915">+54 9 11 6364-4915</a>
-<a class="hide-sm" href="mailto:info@veatec.com.ar">info@veatec.com.ar</a>
-</div>
-<div class="topbar-group hide-sm"><span>Lun a Vie · 9 a 18 h</span><span>Cobertura en toda la Argentina</span></div>
-</div>
-</div>
 <header class="site-header">
 <div class="container header-main">
-<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="158" height="55" alt="Veatec, ir al inicio"></a>
+<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="214" height="74" alt="Veatec, ir al inicio"></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><span>Menú</span></button>
 <nav id="menu-principal" class="main-nav" aria-label="Principal">
 <ul class="nav-list">
@@ -76,14 +67,14 @@
 <ul class="sub-menu">
 <li><a href="inspecciones-tecnicas.html">Inspecciones técnicas</a></li>
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
-<li><a href="rehabilitacion-equipos-glp.html" class="sub-glp">Rehabilitación de equipos de GLP</a></li>
+<li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </li>
-<li class="nav-glp-item"><a class="nav-glp" href="rehabilitacion-equipos-glp.html">Rehabilitación GLP</a></li>
 <li><a class="nav-link" href="proyectos.html" aria-current="page">Proyectos</a></li>
-<li><a class="nav-link" href="contacto.html">Contacto</a></li>
-<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Solicitar cotización</a></li>
+<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Contacto y cotización</a></li>
 </ul>
 </nav>
 </div>
@@ -127,35 +118,56 @@
 <button type="button" data-filter="auditorias" aria-pressed="false">Auditorías de seguridad</button>
 <button type="button" data-filter="glp" aria-pressed="false">Rehabilitación de equipos de GLP</button>
 <button type="button" data-filter="end" aria-pressed="false">Ensayos no destructivos</button>
+<button type="button" data-filter="ea" aria-pressed="false">Emisión acústica</button>
 </div>
 <div class="gallery">
 <figure data-cat="glp">
 <div class="g-img"><img src="img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp" srcset="img/fotos/rehabilitacion-tk525-pampa-energia-2-480.webp 480w, img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp 960w, img/fotos/rehabilitacion-tk525-pampa-energia-2-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="2133" alt="Batería de cilindros de GLP en Pampa Energía, Puerto General San Martín" loading="lazy" decoding="async"></div>
 <figcaption><span>Rehabilitación GLP</span>Cilindro TK 525 · Pampa Energía PGSM</figcaption>
 </figure>
-<figure data-cat="glp">
+<figure data-cat="glp ea">
+<div class="g-img"><img src="img/fotos/emision-acustica-tubos-glp-960.webp" srcset="img/fotos/emision-acustica-tubos-glp-480.webp 480w, img/fotos/emision-acustica-tubos-glp-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="540" alt="Tubos de GLP conectados al equipo de emisión acústica" loading="lazy" decoding="async"></div>
+<figcaption><span>Rehabilitación GLP</span>Emisión acústica en tubos de GLP</figcaption>
+</figure>
+<figure data-cat="glp ea">
+<div class="g-img"><img src="img/fotos/emision-acustica-tubos-glp-3-960.webp" srcset="img/fotos/emision-acustica-tubos-glp-3-480.webp 480w, img/fotos/emision-acustica-tubos-glp-3-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Bastidor con tubos de GLP preparados para el ensayo de emisión acústica" loading="lazy" decoding="async"></div>
+<figcaption><span>Rehabilitación GLP</span>Tubos de GLP · Emisión acústica</figcaption>
+</figure>
+<figure data-cat="glp ea">
 <div class="g-img"><img src="img/fotos/emision-acustica-cigarro-glp-960.webp" srcset="img/fotos/emision-acustica-cigarro-glp-480.webp 480w, img/fotos/emision-acustica-cigarro-glp-960.webp 960w, img/fotos/emision-acustica-cigarro-glp-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="2133" alt="Técnico de Veatec instalando sensores de emisión acústica en un cilindro de GLP" loading="lazy" decoding="async"></div>
 <figcaption><span>Rehabilitación GLP</span>Emisión acústica en cilindro de GLP</figcaption>
 </figure>
-<figure data-cat="glp">
+<figure data-cat="glp ea">
 <div class="g-img"><img src="img/fotos/emision-acustica-tanque-glp-960.webp" srcset="img/fotos/emision-acustica-tanque-glp-480.webp 480w, img/fotos/emision-acustica-tanque-glp-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Ensayo de emisión acústica sobre un tanque de GLP" loading="lazy" decoding="async"></div>
 <figcaption><span>Rehabilitación GLP</span>Emisión acústica en tanque de GLP</figcaption>
 </figure>
 <figure data-cat="inspecciones">
-<div class="g-img"><img src="img/fotos/inspeccion-tanque-aereo-960.webp" srcset="img/fotos/inspeccion-tanque-aereo-480.webp 480w, img/fotos/inspeccion-tanque-aereo-960.webp 960w, img/fotos/inspeccion-tanque-aereo-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Tanque aéreo de almacenamiento de hidrocarburos durante una inspección" loading="lazy" decoding="async"></div>
-<figcaption><span>Inspecciones técnicas</span>Inspección de tanque aéreo de almacenamiento</figcaption>
+<div class="g-img"><img src="img/fotos/inspeccion-tanque-aereo-960.webp" srcset="img/fotos/inspeccion-tanque-aereo-480.webp 480w, img/fotos/inspeccion-tanque-aereo-960.webp 960w, img/fotos/inspeccion-tanque-aereo-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Inspección visual de un tanque aéreo de almacenamiento de hidrocarburos" loading="lazy" decoding="async"></div>
+<figcaption><span>Inspecciones técnicas</span>Inspección visual en tanque · Res. 277</figcaption>
 </figure>
-<figure data-cat="inspecciones">
+<figure data-cat="inspecciones ea">
 <div class="g-img"><img src="img/fotos/emision-acustica-tanque-aereo-1-960.webp" srcset="img/fotos/emision-acustica-tanque-aereo-1-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-1-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Equipo de emisión acústica junto a un tanque aéreo de almacenamiento" loading="lazy" decoding="async"></div>
 <figcaption><span>Inspecciones técnicas</span>Emisión acústica en tanque aéreo · Inspección Res. 277</figcaption>
 </figure>
+<figure data-cat="inspecciones ea">
+<div class="g-img"><img src="img/fotos/emision-acustica-tanque-aereo-2-960.webp" srcset="img/fotos/emision-acustica-tanque-aereo-2-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-2-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Adquisición de datos de emisión acústica durante la inspección de un tanque aéreo" loading="lazy" decoding="async"></div>
+<figcaption><span>Inspecciones técnicas</span>Adquisición de datos de emisión acústica</figcaption>
+</figure>
 <figure data-cat="inspecciones">
 <div class="g-img"><img src="img/fotos/espesores-ultrasonido-techo-tanque-960.webp" srcset="img/fotos/espesores-ultrasonido-techo-tanque-480.webp 480w, img/fotos/espesores-ultrasonido-techo-tanque-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Medición de espesores por ultrasonido en el techo de un tanque" loading="lazy" decoding="async"></div>
-<figcaption><span>Inspecciones técnicas</span>Espesores por ultrasonido en techo de tanque</figcaption>
+<figcaption><span>Inspecciones técnicas</span>Medición de espesores por US en techo de tanque</figcaption>
 </figure>
 <figure data-cat="inspecciones">
 <div class="g-img"><img src="img/fotos/inspeccion-visual-tanque-api-960.webp" srcset="img/fotos/inspeccion-visual-tanque-api-480.webp 480w, img/fotos/inspeccion-visual-tanque-api-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Inspección visual de un tanque de almacenamiento API" loading="lazy" decoding="async"></div>
 <figcaption><span>Inspecciones técnicas</span>Inspección visual de tanque API</figcaption>
+</figure>
+<figure data-cat="auditorias">
+<div class="g-img"><img src="img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp" srcset="img/fotos/prueba-rci-esfera-refineria-bahia-blanca-480.webp 480w, img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Prueba de la red contra incendios sobre una esfera en la Refinería Bahía Blanca" loading="lazy" decoding="async"></div>
+<figcaption><span>Auditorías de seguridad</span>Prueba de RCI en esfera · Refinería Bahía Blanca</figcaption>
+</figure>
+<figure data-cat="auditorias">
+<div class="g-img"><img src="img/fotos/mina-veladero-planta-combustible-960.webp" srcset="img/fotos/mina-veladero-planta-combustible-480.webp 480w, img/fotos/mina-veladero-planta-combustible-960.webp 960w, img/fotos/mina-veladero-planta-combustible-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="739" alt="Planta de combustible del campamento de la mina Veladero, en la cordillera" loading="lazy" decoding="async"></div>
+<figcaption><span>Auditorías de seguridad</span>Mina Veladero · Planta de combustible del campamento</figcaption>
 </figure>
 <figure data-cat="auditorias">
 <div class="g-img"><img src="img/fotos/parque-esferas-refinor-campo-duran-960.webp" srcset="img/fotos/parque-esferas-refinor-campo-duran-480.webp 480w, img/fotos/parque-esferas-refinor-campo-duran-960.webp 960w, img/fotos/parque-esferas-refinor-campo-duran-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Parque de esferas de GLP de Refinor en Campo Durán" loading="lazy" decoding="async"></div>
@@ -230,8 +242,8 @@
 <figcaption><span>Ensayos no destructivos</span>Escaneo de piso por LFET · Inspección interna</figcaption>
 </figure>
 <figure data-cat="end">
-<div class="g-img"><img src="img/fotos/escaneo-piso-mfl-960.webp" srcset="img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Escaneo del piso de un tanque por fuga de flujo magnético (MFL)" loading="lazy" decoding="async"></div>
-<figcaption><span>Ensayos no destructivos</span>Escaneo de piso por MFL · Inspección interna</figcaption>
+<div class="g-img"><img src="img/fotos/escaneo-piso-mfl-960.webp" srcset="img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Técnico realizando el escaneo de piso de un tanque por LFET" loading="lazy" decoding="async"></div>
+<figcaption><span>Ensayos no destructivos</span>Escaneo de piso por LFET · Inspección interna</figcaption>
 </figure>
 <figure data-cat="end">
 <div class="g-img"><img src="img/fotos/escaneo-piso-calibracion-960.webp" srcset="img/fotos/escaneo-piso-calibracion-480.webp 480w, img/fotos/escaneo-piso-calibracion-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Calibración del equipo de escaneo de piso dentro de un tanque" loading="lazy" decoding="async"></div>
@@ -270,7 +282,7 @@
 <div class="container footer-grid">
 <div class="footer-brand">
 <img src="img/marca/logo-veatec-negativo.svg" width="220" height="76" alt="Veatec · Auditorías técnicas e inspecciones" loading="lazy">
-<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en toda la Argentina.</p>
+<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en Argentina y países limítrofes.</p>
 </div>
 <div class="footer-col">
 <h2>Servicios</h2>
@@ -279,6 +291,8 @@
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
 <li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </div>
 <div class="footer-col">
@@ -302,8 +316,8 @@
 </div>
 </div>
 <div class="container footer-bottom">
-<span>© 2026 Veatec. Todos los derechos reservados.</span>
-<span>Ciudad Autónoma de Buenos Aires · Argentina</span>
+<span>© 2026 VEATEC SRL. Todos los derechos reservados.</span>
+<span>Ciudad Autónoma de Buenos Aires · Argentina y países limítrofes</span>
 </div>
 </footer>
 <!-- ===== /FOOTER ===== -->

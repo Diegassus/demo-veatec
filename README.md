@@ -1,7 +1,7 @@
 # Veatec: sitio institucional (demo)
 
-Demo navegable del sitio de **Veatec · Auditorías técnicas e inspecciones**: auditorías de seguridad, inspecciones técnicas, rehabilitación de equipos de GLP y ensayos no destructivos.
-Ya incluye la identidad del logo, los contenidos del **Feedback 01**, las fotos de obra y los logos de clientes.
+Demo navegable del sitio de **VEATEC SRL · Auditorías técnicas e inspecciones**: inspecciones técnicas, auditorías de seguridad, rehabilitación de equipos de GLP, ensayos no destructivos, cámara acústica y emisión acústica, en Argentina y países limítrofes.
+Incluye la identidad del logo, los contenidos de los **Feedback 01 y 02**, las fotos de obra y los logos de clientes.
 
 ## Cómo verlo
 
@@ -17,11 +17,13 @@ Ya incluye la identidad del logo, los contenidos del **Feedback 01**, las fotos 
 | Servicios | `servicios.html` |
 | ↳ Inspecciones técnicas (Res. 277/25 · API 653) | `inspecciones-tecnicas.html` |
 | ↳ Auditorías de seguridad (Res. 404/94 · Res. 1102/04) | `auditorias-de-seguridad.html` |
-| ↳ **Rehabilitación de equipos de GLP** (servicio destacado) | `rehabilitacion-equipos-glp.html` |
+| ↳ Rehabilitación de equipos de GLP | `rehabilitacion-equipos-glp.html` |
 | ↳ Ensayos no destructivos | `ensayos-no-destructivos.html` |
+| ↳ Cámara acústica | `camara-acustica.html` |
+| ↳ Emisión acústica | `emision-acustica.html` |
 | Proyectos | `proyectos.html` |
 | ↳ Caso de estudio (TK 525 · Pampa Energía) | `caso-estudio.html` |
-| Contacto | `contacto.html` |
+| Contacto y cotización | `contacto.html` |
 
 `rehabilitacion-esferas-glp.html` ahora solo redirige a la página nueva, porque el servicio se renombró por pedido del cliente.
 
@@ -68,12 +70,14 @@ El logo se vectorizó a partir del PNG. Los triángulos y los colores son exacto
 
 ## Pendiente del cliente
 
-- Presentación de la empresa: historia, objetivo, actualidad y enfoque.
-- Descripciones de cada ensayo no destructivo (9 técnicas).
+- **Cámara acústica y Emisión acústica:** textos para desarrollar las dos páginas (el cliente los envía) y fotos propias de cámara acústica. Las del flyer muestran un equipo de terceros.
+- **Especificación de la cámara acústica:** el flyer dice "10 Hz – 120 Hz". Confirmar si es 120 kHz, porque el equipo detecta ultrasonido.
+- **Siglas de END:** el sitio usa las del feedback 02 (US, EA, MT, PT). Confirmar.
+- **Cobertura:** el texto de Empresa dice "cualquier punto del territorio nacional" y el resto del sitio, "Argentina y países limítrofes".
 - Descripción de los tipos de equipos de GLP y del paso de relevamiento.
-- Datos del caso TK 525 (fecha, ensayos, desafío, solución, resultados) y cifras: equipos rehabilitados, m³, días de parada.
+- Datos del caso TK 525: fecha, ensayos, desafío, solución y resultados.
 - Respuestas pendientes de las preguntas frecuentes de GLP.
-- Casillas de correo por servicio: hoy las consultas técnicas van a `tecnica@` y las generales a `info@`.
+- Casillas de correo por servicio. Hoy las consultas técnicas van a `tecnica@` y las generales a `info@`.
 
 ## Antes de publicar en www.veatec.com.ar
 

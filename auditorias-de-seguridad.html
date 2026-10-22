@@ -64,10 +64,32 @@
    "provider": {
     "@id": "https://www.veatec.com.ar/#organizacion"
    },
-   "areaServed": {
-    "@type": "Country",
-    "name": "Argentina"
-   }
+   "areaServed": [
+    {
+     "@type": "Country",
+     "name": "Argentina"
+    },
+    {
+     "@type": "Country",
+     "name": "Uruguay"
+    },
+    {
+     "@type": "Country",
+     "name": "Chile"
+    },
+    {
+     "@type": "Country",
+     "name": "Bolivia"
+    },
+    {
+     "@type": "Country",
+     "name": "Paraguay"
+    },
+    {
+     "@type": "Country",
+     "name": "Brasil"
+    }
+   ]
   }
  ]
 }
@@ -76,18 +98,9 @@
 <body>
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <!-- ===== HEADER (en PHP: includes/header.php) ===== -->
-<div class="topbar">
-<div class="container topbar-inner">
-<div class="topbar-group">
-<a href="tel:+5491163644915">+54 9 11 6364-4915</a>
-<a class="hide-sm" href="mailto:info@veatec.com.ar">info@veatec.com.ar</a>
-</div>
-<div class="topbar-group hide-sm"><span>Lun a Vie · 9 a 18 h</span><span>Cobertura en toda la Argentina</span></div>
-</div>
-</div>
 <header class="site-header">
 <div class="container header-main">
-<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="158" height="55" alt="Veatec, ir al inicio"></a>
+<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="214" height="74" alt="Veatec, ir al inicio"></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><span>Menú</span></button>
 <nav id="menu-principal" class="main-nav" aria-label="Principal">
 <ul class="nav-list">
@@ -97,14 +110,14 @@
 <ul class="sub-menu">
 <li><a href="inspecciones-tecnicas.html">Inspecciones técnicas</a></li>
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
-<li><a href="rehabilitacion-equipos-glp.html" class="sub-glp">Rehabilitación de equipos de GLP</a></li>
+<li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </li>
-<li class="nav-glp-item"><a class="nav-glp" href="rehabilitacion-equipos-glp.html">Rehabilitación GLP</a></li>
 <li><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-<li><a class="nav-link" href="contacto.html">Contacto</a></li>
-<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Solicitar cotización</a></li>
+<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Contacto y cotización</a></li>
 </ul>
 </nav>
 </div>
@@ -122,7 +135,11 @@
 </ol></nav>
 <span class="eyebrow">Auditorías de seguridad</span>
 <h1>Auditorías de seguridad de instalaciones de hidrocarburos</h1>
-<p class="lead">Verificamos el funcionamiento y la seguridad de instalaciones inscriptas en el Registro de la Secretaría de Energía y acompañamos la habilitación de bocas de expendio.</p>
+<p class="lead">Dos actividades principales:</p>
+<ul class="checklist">
+<li>Verificación de funcionamiento y seguridad de instalaciones inscriptas en el Registro de la Secretaría de Energía (auditores habilitados para categorías A1 a C3, Res. 404/94).</li>
+<li>Inscripción y habilitación en el Registro de Bocas de Expendio (Res. 1102/04): evaluación del proyecto de obra, verificación de condiciones de seguridad y asesoramiento en el proceso de alta de la instalación.</li>
+</ul>
 <div class="btn-row"><a class="btn btn--primary" href="contacto.html?servicio=auditorias">Solicitar auditoría</a></div>
 </div>
 </div>
@@ -157,8 +174,16 @@
 </section>
 <section class="section section--alt" aria-labelledby="instalaciones-titulo">
 <div class="container">
-<div class="section-head"><div><span class="eyebrow">Experiencia</span><h2 id="instalaciones-titulo">Instalaciones auditadas</h2><p>Refinerías, centrales térmicas, parques de esferas y plantas petroquímicas en todo el país.</p></div></div>
+<div class="section-head"><div><span class="eyebrow">Experiencia</span><h2 id="instalaciones-titulo">Instalaciones auditadas</h2><p>Refinerías, centrales térmicas, parques de esferas, plantas petroquímicas y emplazamientos mineros.</p></div></div>
 <div class="gallery">
+<figure>
+<div class="g-img"><img src="img/fotos/mina-veladero-planta-combustible-960.webp" srcset="img/fotos/mina-veladero-planta-combustible-480.webp 480w, img/fotos/mina-veladero-planta-combustible-960.webp 960w, img/fotos/mina-veladero-planta-combustible-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="739" alt="Planta de combustible del campamento de la mina Veladero, en la cordillera" loading="lazy" decoding="async"></div>
+<figcaption>Mina Veladero · Planta de combustible del campamento</figcaption>
+</figure>
+<figure>
+<div class="g-img"><img src="img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp" srcset="img/fotos/prueba-rci-esfera-refineria-bahia-blanca-480.webp 480w, img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Prueba de la red contra incendios sobre una esfera en la Refinería Bahía Blanca" loading="lazy" decoding="async"></div>
+<figcaption>Prueba de RCI en esfera · Refinería Bahía Blanca</figcaption>
+</figure>
 <figure>
 <div class="g-img"><img src="img/fotos/parque-esferas-refinor-campo-duran-960.webp" srcset="img/fotos/parque-esferas-refinor-campo-duran-480.webp 480w, img/fotos/parque-esferas-refinor-campo-duran-960.webp 960w, img/fotos/parque-esferas-refinor-campo-duran-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Parque de esferas de GLP de Refinor en Campo Durán" loading="lazy" decoding="async"></div>
 <figcaption>Parque de esferas · Refinor, Campo Durán</figcaption>
@@ -216,7 +241,7 @@
 <div class="container footer-grid">
 <div class="footer-brand">
 <img src="img/marca/logo-veatec-negativo.svg" width="220" height="76" alt="Veatec · Auditorías técnicas e inspecciones" loading="lazy">
-<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en toda la Argentina.</p>
+<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en Argentina y países limítrofes.</p>
 </div>
 <div class="footer-col">
 <h2>Servicios</h2>
@@ -225,6 +250,8 @@
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
 <li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </div>
 <div class="footer-col">
@@ -248,8 +275,8 @@
 </div>
 </div>
 <div class="container footer-bottom">
-<span>© 2026 Veatec. Todos los derechos reservados.</span>
-<span>Ciudad Autónoma de Buenos Aires · Argentina</span>
+<span>© 2026 VEATEC SRL. Todos los derechos reservados.</span>
+<span>Ciudad Autónoma de Buenos Aires · Argentina y países limítrofes</span>
 </div>
 </footer>
 <!-- ===== /FOOTER ===== -->

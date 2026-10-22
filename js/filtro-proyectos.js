@@ -1,4 +1,5 @@
 // Filtro de la galería de proyectos por servicio.
+// Cada foto puede pertenecer a más de un servicio: data-cat="glp ea".
 (function () {
   var botones = document.querySelectorAll('[data-filter]');
   var items = document.querySelectorAll('.gallery [data-cat]');
@@ -7,7 +8,8 @@
       var filtro = boton.dataset.filter;
       botones.forEach(function (b) { b.setAttribute('aria-pressed', b === boton ? 'true' : 'false'); });
       items.forEach(function (it) {
-        it.hidden = !(filtro === 'todos' || it.dataset.cat === filtro);
+        var cats = it.dataset.cat.split(' ');
+        it.hidden = !(filtro === 'todos' || cats.indexOf(filtro) !== -1);
       });
     });
   });

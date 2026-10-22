@@ -64,10 +64,32 @@
    "provider": {
     "@id": "https://www.veatec.com.ar/#organizacion"
    },
-   "areaServed": {
-    "@type": "Country",
-    "name": "Argentina"
-   }
+   "areaServed": [
+    {
+     "@type": "Country",
+     "name": "Argentina"
+    },
+    {
+     "@type": "Country",
+     "name": "Uruguay"
+    },
+    {
+     "@type": "Country",
+     "name": "Chile"
+    },
+    {
+     "@type": "Country",
+     "name": "Bolivia"
+    },
+    {
+     "@type": "Country",
+     "name": "Paraguay"
+    },
+    {
+     "@type": "Country",
+     "name": "Brasil"
+    }
+   ]
   }
  ]
 }
@@ -76,18 +98,9 @@
 <body>
 <a class="skip-link" href="#contenido">Saltar al contenido</a>
 <!-- ===== HEADER (en PHP: includes/header.php) ===== -->
-<div class="topbar">
-<div class="container topbar-inner">
-<div class="topbar-group">
-<a href="tel:+5491163644915">+54 9 11 6364-4915</a>
-<a class="hide-sm" href="mailto:info@veatec.com.ar">info@veatec.com.ar</a>
-</div>
-<div class="topbar-group hide-sm"><span>Lun a Vie · 9 a 18 h</span><span>Cobertura en toda la Argentina</span></div>
-</div>
-</div>
 <header class="site-header">
 <div class="container header-main">
-<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="158" height="55" alt="Veatec, ir al inicio"></a>
+<a class="brand" href="index.html"><img src="img/marca/logo-veatec-compacto.svg" width="214" height="74" alt="Veatec, ir al inicio"></a>
 <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-principal"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg><span>Menú</span></button>
 <nav id="menu-principal" class="main-nav" aria-label="Principal">
 <ul class="nav-list">
@@ -97,14 +110,14 @@
 <ul class="sub-menu">
 <li><a href="inspecciones-tecnicas.html">Inspecciones técnicas</a></li>
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
-<li><a href="rehabilitacion-equipos-glp.html" class="sub-glp">Rehabilitación de equipos de GLP</a></li>
+<li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </li>
-<li class="nav-glp-item"><a class="nav-glp" href="rehabilitacion-equipos-glp.html">Rehabilitación GLP</a></li>
 <li><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-<li><a class="nav-link" href="contacto.html">Contacto</a></li>
-<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Solicitar cotización</a></li>
+<li class="nav-cta-item"><a class="btn btn--dark nav-cta" href="contacto.html">Contacto y cotización</a></li>
 </ul>
 </nav>
 </div>
@@ -152,7 +165,7 @@
 </figure>
 <figure>
 <div class="g-img"><img src="img/fotos/espesores-ultrasonido-techo-tanque-960.webp" srcset="img/fotos/espesores-ultrasonido-techo-tanque-480.webp 480w, img/fotos/espesores-ultrasonido-techo-tanque-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Medición de espesores por ultrasonido en el techo de un tanque" loading="lazy" decoding="async"></div>
-<figcaption>Espesores por ultrasonido en techo de tanque</figcaption>
+<figcaption>Medición de espesores por US en techo de tanque</figcaption>
 </figure>
 <figure>
 <div class="g-img"><img src="img/fotos/emision-acustica-tanque-aereo-1-960.webp" srcset="img/fotos/emision-acustica-tanque-aereo-1-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-1-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="1280" alt="Equipo de emisión acústica junto a un tanque aéreo de almacenamiento" loading="lazy" decoding="async"></div>
@@ -163,8 +176,8 @@
 <figcaption>Partículas magnéticas sobre zona crítica de tanque API</figcaption>
 </figure>
 <figure>
-<div class="g-img"><img src="img/fotos/escaneo-piso-mfl-960.webp" srcset="img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Escaneo del piso de un tanque por fuga de flujo magnético (MFL)" loading="lazy" decoding="async"></div>
-<figcaption>Escaneo de piso por MFL · Inspección interna</figcaption>
+<div class="g-img"><img src="img/fotos/escaneo-piso-mfl-960.webp" srcset="img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Técnico realizando el escaneo de piso de un tanque por LFET" loading="lazy" decoding="async"></div>
+<figcaption>Escaneo de piso por LFET · Inspección interna</figcaption>
 </figure>
 <figure>
 <div class="g-img"><img src="img/fotos/indicacion-piso-tanque-960.webp" srcset="img/fotos/indicacion-piso-tanque-480.webp 480w, img/fotos/indicacion-piso-tanque-960.webp 960w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="960" height="720" alt="Técnico marcando una indicación en el piso de un tanque" loading="lazy" decoding="async"></div>
@@ -181,19 +194,6 @@
 <li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="M12 18l4-6"/></svg></span><h3>Mayor vida útil</h3><p>Mantenimiento planificado según el estado real del tanque.</p></li>
 <li><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>Menos paradas imprevistas</h3><p>Reducción de paradas no planificadas y de sus costos.</p></li>
 </ul>
-</div>
-</section>
-<section class="section section--dark section--tight">
-<div class="container">
-<a class="case case--dark" href="rehabilitacion-equipos-glp.html">
-<div class="case__img"><img src="img/fotos/parque-esferas-refinor-campo-duran-960.webp" srcset="img/fotos/parque-esferas-refinor-campo-duran-480.webp 480w, img/fotos/parque-esferas-refinor-campo-duran-960.webp 960w, img/fotos/parque-esferas-refinor-campo-duran-1600.webp 1600w" sizes="(max-width: 940px) 100vw, 560px" width="1600" height="1200" alt="" loading="lazy" decoding="async"></div>
-<div class="case__body">
-<span class="eyebrow">Servicio destacado</span>
-<h2>¿Sus equipos de GLP necesitan la rehabilitación decenal?</h2>
-<p>Integramos inspección, ensayos, prueba hidráulica y certificación ante la Secretaría de Energía en un solo servicio.</p>
-<span class="link-arrow">Conocer el servicio</span>
-</div>
-</a>
 </div>
 </section>
 <section class="cta-band">
@@ -214,7 +214,7 @@
 <div class="container footer-grid">
 <div class="footer-brand">
 <img src="img/marca/logo-veatec-negativo.svg" width="220" height="76" alt="Veatec · Auditorías técnicas e inspecciones" loading="lazy">
-<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en toda la Argentina.</p>
+<p>Auditorías de seguridad, inspecciones técnicas y ensayos no destructivos para la industria en Argentina y países limítrofes.</p>
 </div>
 <div class="footer-col">
 <h2>Servicios</h2>
@@ -223,6 +223,8 @@
 <li><a href="auditorias-de-seguridad.html">Auditorías de seguridad</a></li>
 <li><a href="rehabilitacion-equipos-glp.html">Rehabilitación de equipos de GLP</a></li>
 <li><a href="ensayos-no-destructivos.html">Ensayos no destructivos</a></li>
+<li><a href="camara-acustica.html">Cámara acústica</a></li>
+<li><a href="emision-acustica.html">Emisión acústica</a></li>
 </ul>
 </div>
 <div class="footer-col">
@@ -246,8 +248,8 @@
 </div>
 </div>
 <div class="container footer-bottom">
-<span>© 2026 Veatec. Todos los derechos reservados.</span>
-<span>Ciudad Autónoma de Buenos Aires · Argentina</span>
+<span>© 2026 VEATEC SRL. Todos los derechos reservados.</span>
+<span>Ciudad Autónoma de Buenos Aires · Argentina y países limítrofes</span>
 </div>
 </footer>
 <!-- ===== /FOOTER ===== -->
