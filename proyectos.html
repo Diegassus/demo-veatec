@@ -112,17 +112,17 @@
 <section class="section section--alt" aria-labelledby="galeria-titulo">
 <div class="container">
 <h2 id="galeria-titulo" class="visually-hidden">Galería de trabajos</h2>
-<div class="filters" role="group" aria-label="Filtrar por servicio">
+<div class="filters" role="group" aria-label="Filtrar por servicio" data-filtros>
 <button type="button" data-filter="todos" aria-pressed="true">Todos</button>
 <button type="button" data-filter="inspecciones" aria-pressed="false">Inspecciones técnicas</button>
 <button type="button" data-filter="auditorias" aria-pressed="false">Auditorías de seguridad</button>
-<button type="button" data-filter="glp" aria-pressed="false">Rehabilitación de equipos de GLP</button>
+<button type="button" data-filter="glp" aria-pressed="false">Rehabilitación GLP</button>
 <button type="button" data-filter="end" aria-pressed="false">Ensayos no destructivos</button>
 <button type="button" data-filter="ea" aria-pressed="false">Emisión acústica</button>
 </div>
-<div class="gallery">
+<div class="gallery" data-proyectos="todos">
 <figure data-cat="glp">
-<div class="g-img"><img src="img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp" srcset="img/fotos/rehabilitacion-tk525-pampa-energia-2-480.webp 480w, img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp 960w, img/fotos/rehabilitacion-tk525-pampa-energia-2-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="2133" alt="Batería de cilindros de GLP en Pampa Energía, Puerto General San Martín" loading="lazy" decoding="async"></div>
+<a class="g-link" href="caso-estudio.html"><div class="g-img"><img src="img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp" srcset="img/fotos/rehabilitacion-tk525-pampa-energia-2-480.webp 480w, img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp 960w, img/fotos/rehabilitacion-tk525-pampa-energia-2-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="2133" alt="Batería de cilindros de GLP en Pampa Energía, Puerto General San Martín" loading="lazy" decoding="async"></div></a>
 <figcaption><span>Rehabilitación GLP</span>Cilindro TK 525 · Pampa Energía PGSM</figcaption>
 </figure>
 <figure data-cat="glp ea">
@@ -196,6 +196,10 @@
 <figure data-cat="auditorias">
 <div class="g-img"><img src="img/fotos/refineria-bahia-blanca-3-960.webp" srcset="img/fotos/refineria-bahia-blanca-3-480.webp 480w, img/fotos/refineria-bahia-blanca-3-960.webp 960w, img/fotos/refineria-bahia-blanca-3-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Recipientes de GLP horizontales en la Refinería Bahía Blanca" loading="lazy" decoding="async"></div>
 <figcaption><span>Auditorías de seguridad</span>Recipientes de GLP · Refinería Bahía Blanca</figcaption>
+</figure>
+<figure data-cat="auditorias">
+<div class="g-img"><img src="img/fotos/refineria-bahia-blanca-2-960.webp" srcset="img/fotos/refineria-bahia-blanca-2-480.webp 480w, img/fotos/refineria-bahia-blanca-2-960.webp 960w, img/fotos/refineria-bahia-blanca-2-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Unidades de proceso de la Refinería Bahía Blanca" loading="lazy" decoding="async"></div>
+<figcaption><span>Auditorías de seguridad</span>Refinería Bahía Blanca</figcaption>
 </figure>
 <figure data-cat="auditorias">
 <div class="g-img"><img src="img/fotos/ypf-refineria-lujan-de-cuyo-960.webp" srcset="img/fotos/ypf-refineria-lujan-de-cuyo-480.webp 480w, img/fotos/ypf-refineria-lujan-de-cuyo-960.webp 960w, img/fotos/ypf-refineria-lujan-de-cuyo-1600.webp 1600w" sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 380px" width="1600" height="1200" alt="Vista desde el techo de un tanque en la Refinería Luján de Cuyo de YPF" loading="lazy" decoding="async"></div>
@@ -308,7 +312,6 @@
 <ul>
 <li>Av. Roque Sáenz Peña 616, Of. 305/306, CABA</li>
 <li><a href="tel:+5491163644915">+54 9 11 6364-4915</a></li>
-<li><a href="tel:+541143421061">011 4342-1061</a> (fijo)</li>
 <li><a href="mailto:info@veatec.com.ar">info@veatec.com.ar</a></li>
 <li><a href="mailto:tecnica@veatec.com.ar">tecnica@veatec.com.ar</a></li>
 <li>Lun a Vie · 9 a 18 h</li>
@@ -322,6 +325,6 @@
 </footer>
 <!-- ===== /FOOTER ===== -->
 <script src="js/main.js" defer></script>
-<script src="js/filtro-proyectos.js" defer></script>
+<script src="js/proyectos.js" defer></script>
 </body>
 </html>

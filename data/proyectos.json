@@ -1,0 +1,469 @@
+{
+  "servicios": [
+    {
+      "id": "inspecciones",
+      "nombre": "Inspecciones técnicas"
+    },
+    {
+      "id": "auditorias",
+      "nombre": "Auditorías de seguridad"
+    },
+    {
+      "id": "glp",
+      "nombre": "Rehabilitación GLP"
+    },
+    {
+      "id": "end",
+      "nombre": "Ensayos no destructivos"
+    },
+    {
+      "id": "camara",
+      "nombre": "Cámara acústica"
+    },
+    {
+      "id": "ea",
+      "nombre": "Emisión acústica"
+    }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Cilindro TK 525 · Pampa Energía PGSM",
+      "servicios": [
+        "glp"
+      ],
+      "imagen": "img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp",
+      "srcset": "img/fotos/rehabilitacion-tk525-pampa-energia-2-480.webp 480w, img/fotos/rehabilitacion-tk525-pampa-energia-2-960.webp 960w, img/fotos/rehabilitacion-tk525-pampa-energia-2-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 2133,
+      "alt": "Batería de cilindros de GLP en Pampa Energía, Puerto General San Martín",
+      "destacado": false,
+      "enlace": "caso-estudio.html"
+    },
+    {
+      "titulo": "Emisión acústica en tubos de GLP",
+      "servicios": [
+        "glp",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-tubos-glp-960.webp",
+      "srcset": "img/fotos/emision-acustica-tubos-glp-480.webp 480w, img/fotos/emision-acustica-tubos-glp-960.webp 960w",
+      "ancho": 960,
+      "alto": 540,
+      "alt": "Tubos de GLP conectados al equipo de emisión acústica",
+      "destacado": false
+    },
+    {
+      "titulo": "Tubos de GLP · Emisión acústica",
+      "servicios": [
+        "glp",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-tubos-glp-3-960.webp",
+      "srcset": "img/fotos/emision-acustica-tubos-glp-3-480.webp 480w, img/fotos/emision-acustica-tubos-glp-3-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Bastidor con tubos de GLP preparados para el ensayo de emisión acústica",
+      "destacado": false
+    },
+    {
+      "titulo": "Emisión acústica en cilindro de GLP",
+      "servicios": [
+        "glp",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-cigarro-glp-960.webp",
+      "srcset": "img/fotos/emision-acustica-cigarro-glp-480.webp 480w, img/fotos/emision-acustica-cigarro-glp-960.webp 960w, img/fotos/emision-acustica-cigarro-glp-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 2133,
+      "alt": "Técnico de Veatec instalando sensores de emisión acústica en un cilindro de GLP",
+      "destacado": true
+    },
+    {
+      "titulo": "Emisión acústica en tanque de GLP",
+      "servicios": [
+        "glp",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-tanque-glp-960.webp",
+      "srcset": "img/fotos/emision-acustica-tanque-glp-480.webp 480w, img/fotos/emision-acustica-tanque-glp-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Ensayo de emisión acústica sobre un tanque de GLP",
+      "destacado": false
+    },
+    {
+      "titulo": "Inspección visual en tanque · Res. 277",
+      "servicios": [
+        "inspecciones"
+      ],
+      "imagen": "img/fotos/inspeccion-tanque-aereo-960.webp",
+      "srcset": "img/fotos/inspeccion-tanque-aereo-480.webp 480w, img/fotos/inspeccion-tanque-aereo-960.webp 960w, img/fotos/inspeccion-tanque-aereo-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Inspección visual de un tanque aéreo de almacenamiento de hidrocarburos",
+      "destacado": false
+    },
+    {
+      "titulo": "Emisión acústica en tanque aéreo · Inspección Res. 277",
+      "servicios": [
+        "inspecciones",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-tanque-aereo-1-960.webp",
+      "srcset": "img/fotos/emision-acustica-tanque-aereo-1-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-1-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Equipo de emisión acústica junto a un tanque aéreo de almacenamiento",
+      "destacado": false
+    },
+    {
+      "titulo": "Adquisición de datos de emisión acústica",
+      "servicios": [
+        "inspecciones",
+        "ea"
+      ],
+      "imagen": "img/fotos/emision-acustica-tanque-aereo-2-960.webp",
+      "srcset": "img/fotos/emision-acustica-tanque-aereo-2-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-2-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Adquisición de datos de emisión acústica durante la inspección de un tanque aéreo",
+      "destacado": false
+    },
+    {
+      "titulo": "Medición de espesores por US en techo de tanque",
+      "servicios": [
+        "inspecciones"
+      ],
+      "imagen": "img/fotos/espesores-ultrasonido-techo-tanque-960.webp",
+      "srcset": "img/fotos/espesores-ultrasonido-techo-tanque-480.webp 480w, img/fotos/espesores-ultrasonido-techo-tanque-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Medición de espesores por ultrasonido en el techo de un tanque",
+      "destacado": false
+    },
+    {
+      "titulo": "Inspección visual de tanque API",
+      "servicios": [
+        "inspecciones"
+      ],
+      "imagen": "img/fotos/inspeccion-visual-tanque-api-960.webp",
+      "srcset": "img/fotos/inspeccion-visual-tanque-api-480.webp 480w, img/fotos/inspeccion-visual-tanque-api-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Inspección visual de un tanque de almacenamiento API",
+      "destacado": false
+    },
+    {
+      "titulo": "Prueba de RCI en esfera · Refinería Bahía Blanca",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp",
+      "srcset": "img/fotos/prueba-rci-esfera-refineria-bahia-blanca-480.webp 480w, img/fotos/prueba-rci-esfera-refineria-bahia-blanca-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Prueba de la red contra incendios sobre una esfera en la Refinería Bahía Blanca",
+      "destacado": false
+    },
+    {
+      "titulo": "Mina Veladero · Planta de combustible del campamento",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/mina-veladero-planta-combustible-960.webp",
+      "srcset": "img/fotos/mina-veladero-planta-combustible-480.webp 480w, img/fotos/mina-veladero-planta-combustible-960.webp 960w, img/fotos/mina-veladero-planta-combustible-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 739,
+      "alt": "Planta de combustible del campamento de la mina Veladero, en la cordillera",
+      "destacado": false
+    },
+    {
+      "titulo": "Parque de esferas · Refinor, Campo Durán",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/parque-esferas-refinor-campo-duran-960.webp",
+      "srcset": "img/fotos/parque-esferas-refinor-campo-duran-480.webp 480w, img/fotos/parque-esferas-refinor-campo-duran-960.webp 960w, img/fotos/parque-esferas-refinor-campo-duran-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Parque de esferas de GLP de Refinor en Campo Durán",
+      "destacado": false
+    },
+    {
+      "titulo": "Parque de esferas · YPF CILC",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/parque-esferas-ypf-cilc-960.webp",
+      "srcset": "img/fotos/parque-esferas-ypf-cilc-480.webp 480w, img/fotos/parque-esferas-ypf-cilc-960.webp 960w, img/fotos/parque-esferas-ypf-cilc-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Parque de esferas de GLP de YPF",
+      "destacado": false
+    },
+    {
+      "titulo": "Central Puerto · Buenos Aires",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/central-puerto-buenos-aires-960.webp",
+      "srcset": "img/fotos/central-puerto-buenos-aires-480.webp 480w, img/fotos/central-puerto-buenos-aires-960.webp 960w, img/fotos/central-puerto-buenos-aires-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Tanques de Central Puerto en Buenos Aires",
+      "destacado": false
+    },
+    {
+      "titulo": "Pampa Energía · Central Térmica Pilar",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/pampa-energia-ct-pilar-960.webp",
+      "srcset": "img/fotos/pampa-energia-ct-pilar-480.webp 480w, img/fotos/pampa-energia-ct-pilar-960.webp 960w, img/fotos/pampa-energia-ct-pilar-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Tanques y pasarelas en la Central Térmica Pilar de Pampa Energía",
+      "destacado": false
+    },
+    {
+      "titulo": "Pampa Energía · Petroquímica Puerto General San Martín",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/pampa-energia-pgsm-960.webp",
+      "srcset": "img/fotos/pampa-energia-pgsm-480.webp 480w, img/fotos/pampa-energia-pgsm-960.webp 960w, img/fotos/pampa-energia-pgsm-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Petroquímica de Pampa Energía en Puerto General San Martín",
+      "destacado": false
+    },
+    {
+      "titulo": "Raízen · Dock Sud",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/raizen-dock-sud-960.webp",
+      "srcset": "img/fotos/raizen-dock-sud-480.webp 480w, img/fotos/raizen-dock-sud-960.webp 960w, img/fotos/raizen-dock-sud-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Vista de la planta de Raízen en Dock Sud",
+      "destacado": false
+    },
+    {
+      "titulo": "Recipientes de GLP · Refinería Bahía Blanca",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/refineria-bahia-blanca-3-960.webp",
+      "srcset": "img/fotos/refineria-bahia-blanca-3-480.webp 480w, img/fotos/refineria-bahia-blanca-3-960.webp 960w, img/fotos/refineria-bahia-blanca-3-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Recipientes de GLP horizontales en la Refinería Bahía Blanca",
+      "destacado": false
+    },
+    {
+      "titulo": "Refinería Bahía Blanca",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/refineria-bahia-blanca-2-960.webp",
+      "srcset": "img/fotos/refineria-bahia-blanca-2-480.webp 480w, img/fotos/refineria-bahia-blanca-2-960.webp 960w, img/fotos/refineria-bahia-blanca-2-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Unidades de proceso de la Refinería Bahía Blanca",
+      "destacado": true
+    },
+    {
+      "titulo": "YPF · Refinería Luján de Cuyo",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-refineria-lujan-de-cuyo-960.webp",
+      "srcset": "img/fotos/ypf-refineria-lujan-de-cuyo-480.webp 480w, img/fotos/ypf-refineria-lujan-de-cuyo-960.webp 960w, img/fotos/ypf-refineria-lujan-de-cuyo-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Vista desde el techo de un tanque en la Refinería Luján de Cuyo de YPF",
+      "destacado": false
+    },
+    {
+      "titulo": "Refinor · Campo Durán",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/refinor-campo-duran-960.webp",
+      "srcset": "img/fotos/refinor-campo-duran-480.webp 480w, img/fotos/refinor-campo-duran-960.webp 960w, img/fotos/refinor-campo-duran-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1204,
+      "alt": "Tanques de Refinor en Campo Durán",
+      "destacado": false
+    },
+    {
+      "titulo": "Termoeléctrica San Martín · Santa Fe",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/termoelectrica-san-martin-960.webp",
+      "srcset": "img/fotos/termoelectrica-san-martin-480.webp 480w, img/fotos/termoelectrica-san-martin-960.webp 960w",
+      "ancho": 960,
+      "alto": 720,
+      "alt": "Tanques de la Termoeléctrica San Martín en Santa Fe",
+      "destacado": false
+    },
+    {
+      "titulo": "YPF · Aeroplanta El Calafate",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-aeroplanta-el-calafate-960.webp",
+      "srcset": "img/fotos/ypf-aeroplanta-el-calafate-480.webp 480w, img/fotos/ypf-aeroplanta-el-calafate-960.webp 960w, img/fotos/ypf-aeroplanta-el-calafate-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Tanques de combustible de la aeroplanta de YPF en El Calafate",
+      "destacado": false
+    },
+    {
+      "titulo": "YPF · Comodoro Rivadavia",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-comodoro-rivadavia-960.webp",
+      "srcset": "img/fotos/ypf-comodoro-rivadavia-480.webp 480w, img/fotos/ypf-comodoro-rivadavia-960.webp 960w, img/fotos/ypf-comodoro-rivadavia-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Tanque de YPF frente al mar en Comodoro Rivadavia",
+      "destacado": false
+    },
+    {
+      "titulo": "YPF · La Plata",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-la-plata-480.webp",
+      "srcset": "img/fotos/ypf-la-plata-480.webp 480w",
+      "ancho": 480,
+      "alto": 853,
+      "alt": "Torre de enfriamiento en el complejo de YPF La Plata",
+      "destacado": false
+    },
+    {
+      "titulo": "YPF Química · La Plata",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-quimica-la-plata-960.webp",
+      "srcset": "img/fotos/ypf-quimica-la-plata-480.webp 480w, img/fotos/ypf-quimica-la-plata-960.webp 960w, img/fotos/ypf-quimica-la-plata-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Instalaciones de YPF Química La Plata",
+      "destacado": false
+    },
+    {
+      "titulo": "YPF · Refinería Plaza Huincul",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/ypf-refineria-plaza-huincul-960.webp",
+      "srcset": "img/fotos/ypf-refineria-plaza-huincul-480.webp 480w, img/fotos/ypf-refineria-plaza-huincul-960.webp 960w, img/fotos/ypf-refineria-plaza-huincul-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1000,
+      "alt": "Prueba con agua en un tanque de la Refinería Plaza Huincul de YPF",
+      "destacado": false
+    },
+    {
+      "titulo": "Prueba de hermeticidad · Tanque SASH",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/prueba-hermeticidad-sash-2-960.webp",
+      "srcset": "img/fotos/prueba-hermeticidad-sash-2-480.webp 480w, img/fotos/prueba-hermeticidad-sash-2-960.webp 960w, img/fotos/prueba-hermeticidad-sash-2-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 2133,
+      "alt": "Sensores de prueba de hermeticidad en bocas de un tanque subterráneo",
+      "destacado": false
+    },
+    {
+      "titulo": "Prueba de hermeticidad en boca de expendio",
+      "servicios": [
+        "auditorias"
+      ],
+      "imagen": "img/fotos/prueba-hermeticidad-sash-3-960.webp",
+      "srcset": "img/fotos/prueba-hermeticidad-sash-3-480.webp 480w, img/fotos/prueba-hermeticidad-sash-3-960.webp 960w",
+      "ancho": 960,
+      "alto": 720,
+      "alt": "Prueba de hermeticidad en una estación de servicio",
+      "destacado": false
+    },
+    {
+      "titulo": "Escaneo de piso por LFET · Inspección interna",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/escaneo-piso-lfet-2-960.webp",
+      "srcset": "img/fotos/escaneo-piso-lfet-2-480.webp 480w, img/fotos/escaneo-piso-lfet-2-960.webp 960w",
+      "ancho": 960,
+      "alto": 468,
+      "alt": "Técnico escaneando el piso de un tanque con equipo LFET",
+      "destacado": true
+    },
+    {
+      "titulo": "Escaneo de piso por LFET · Inspección interna",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/escaneo-piso-mfl-960.webp",
+      "srcset": "img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w",
+      "ancho": 1600,
+      "alto": 1200,
+      "alt": "Técnico realizando el escaneo de piso de un tanque por LFET",
+      "destacado": false
+    },
+    {
+      "titulo": "Calibración de equipo para escaneo de piso",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/escaneo-piso-calibracion-960.webp",
+      "srcset": "img/fotos/escaneo-piso-calibracion-480.webp 480w, img/fotos/escaneo-piso-calibracion-960.webp 960w",
+      "ancho": 960,
+      "alto": 1280,
+      "alt": "Calibración del equipo de escaneo de piso dentro de un tanque",
+      "destacado": false
+    },
+    {
+      "titulo": "Indicación en piso de tanque · Inspección interna",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/indicacion-piso-tanque-960.webp",
+      "srcset": "img/fotos/indicacion-piso-tanque-480.webp 480w, img/fotos/indicacion-piso-tanque-960.webp 960w",
+      "ancho": 960,
+      "alto": 720,
+      "alt": "Técnico marcando una indicación en el piso de un tanque",
+      "destacado": false
+    },
+    {
+      "titulo": "Partículas magnéticas sobre zona crítica de tanque API",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/particulas-magneticas-tanque-api-480.webp",
+      "srcset": "img/fotos/particulas-magneticas-tanque-api-480.webp 480w",
+      "ancho": 480,
+      "alto": 855,
+      "alt": "Ensayo de partículas magnéticas sobre una zona crítica de un tanque",
+      "destacado": false
+    },
+    {
+      "titulo": "Medición de espesores por ultrasonido · Tanque horizontal",
+      "servicios": [
+        "end"
+      ],
+      "imagen": "img/fotos/espesores-ultrasonido-tanque-horizontal-480.webp",
+      "srcset": "img/fotos/espesores-ultrasonido-tanque-horizontal-480.webp 480w",
+      "ancho": 480,
+      "alto": 1041,
+      "alt": "Medición de espesores por ultrasonido en un tanque horizontal",
+      "destacado": false
+    }
+  ]
+}
