@@ -491,3 +491,5 @@ a:hover { color: var(--negro); }
 .service-card--test h4 { font-size: 1.05rem; }
 .cert-list strong { font-size: 1.18rem; }
 @media (max-width: 700px) { .service-card--test h4 { font-size: .92rem; } }
+.split--top { align-items: start; }
+.page-hero .facts dd { font-size: 1.05rem; }
