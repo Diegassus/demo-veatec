@@ -1,28 +1,16 @@
 {
   "servicios": [
     {
-      "id": "inspecciones",
-      "nombre": "Inspecciones técnicas"
+      "id": "auditorias",
+      "nombre": "Auditorías de superficie"
     },
     {
-      "id": "auditorias",
-      "nombre": "Auditorías de seguridad"
+      "id": "sash",
+      "nombre": "Hermeticidad SASH"
     },
     {
       "id": "glp",
       "nombre": "Rehabilitación GLP"
-    },
-    {
-      "id": "end",
-      "nombre": "Ensayos no destructivos"
-    },
-    {
-      "id": "camara",
-      "nombre": "Cámara acústica"
-    },
-    {
-      "id": "ea",
-      "nombre": "Emisión acústica"
     }
   ],
   "proyectos": [
@@ -36,122 +24,21 @@
       "ancho": 1600,
       "alto": 2133,
       "alt": "Batería de cilindros de GLP en Pampa Energía, Puerto General San Martín",
-      "destacado": false,
+      "destacado": true,
       "enlace": "caso-estudio.html"
     },
     {
-      "titulo": "Emisión acústica en tubos de GLP",
+      "titulo": "Rehabilitación de tanques cilíndricos de GLP · Pampa Energía PGSM",
       "servicios": [
-        "glp",
-        "ea"
+        "glp"
       ],
-      "imagen": "img/fotos/emision-acustica-tubos-glp-960.webp",
-      "srcset": "img/fotos/emision-acustica-tubos-glp-480.webp 480w, img/fotos/emision-acustica-tubos-glp-960.webp 960w",
-      "ancho": 960,
-      "alto": 540,
-      "alt": "Tubos de GLP conectados al equipo de emisión acústica",
-      "destacado": false
-    },
-    {
-      "titulo": "Tubos de GLP · Emisión acústica",
-      "servicios": [
-        "glp",
-        "ea"
-      ],
-      "imagen": "img/fotos/emision-acustica-tubos-glp-3-960.webp",
-      "srcset": "img/fotos/emision-acustica-tubos-glp-3-480.webp 480w, img/fotos/emision-acustica-tubos-glp-3-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Bastidor con tubos de GLP preparados para el ensayo de emisión acústica",
-      "destacado": false
-    },
-    {
-      "titulo": "Emisión acústica en cilindro de GLP",
-      "servicios": [
-        "glp",
-        "ea"
-      ],
-      "imagen": "img/fotos/emision-acustica-cigarro-glp-960.webp",
-      "srcset": "img/fotos/emision-acustica-cigarro-glp-480.webp 480w, img/fotos/emision-acustica-cigarro-glp-960.webp 960w, img/fotos/emision-acustica-cigarro-glp-1600.webp 1600w",
-      "ancho": 1600,
-      "alto": 2133,
-      "alt": "Técnico de Veatec instalando sensores de emisión acústica en un cilindro de GLP",
-      "destacado": true
-    },
-    {
-      "titulo": "Emisión acústica en tanque de GLP",
-      "servicios": [
-        "glp",
-        "ea"
-      ],
-      "imagen": "img/fotos/emision-acustica-tanque-glp-960.webp",
-      "srcset": "img/fotos/emision-acustica-tanque-glp-480.webp 480w, img/fotos/emision-acustica-tanque-glp-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Ensayo de emisión acústica sobre un tanque de GLP",
-      "destacado": false
-    },
-    {
-      "titulo": "Inspección visual en tanque · Res. 277",
-      "servicios": [
-        "inspecciones"
-      ],
-      "imagen": "img/fotos/inspeccion-tanque-aereo-960.webp",
-      "srcset": "img/fotos/inspeccion-tanque-aereo-480.webp 480w, img/fotos/inspeccion-tanque-aereo-960.webp 960w, img/fotos/inspeccion-tanque-aereo-1600.webp 1600w",
+      "imagen": "img/fotos/rehabilitacion-tk525-pampa-energia-960.webp",
+      "srcset": "img/fotos/rehabilitacion-tk525-pampa-energia-480.webp 480w, img/fotos/rehabilitacion-tk525-pampa-energia-960.webp 960w, img/fotos/rehabilitacion-tk525-pampa-energia-1600.webp 1600w",
       "ancho": 1600,
       "alto": 1200,
-      "alt": "Inspección visual de un tanque aéreo de almacenamiento de hidrocarburos",
-      "destacado": false
-    },
-    {
-      "titulo": "Emisión acústica en tanque aéreo · Inspección Res. 277",
-      "servicios": [
-        "inspecciones",
-        "ea"
-      ],
-      "imagen": "img/fotos/emision-acustica-tanque-aereo-1-960.webp",
-      "srcset": "img/fotos/emision-acustica-tanque-aereo-1-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-1-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Equipo de emisión acústica junto a un tanque aéreo de almacenamiento",
-      "destacado": false
-    },
-    {
-      "titulo": "Adquisición de datos de emisión acústica",
-      "servicios": [
-        "inspecciones",
-        "ea"
-      ],
-      "imagen": "img/fotos/emision-acustica-tanque-aereo-2-960.webp",
-      "srcset": "img/fotos/emision-acustica-tanque-aereo-2-480.webp 480w, img/fotos/emision-acustica-tanque-aereo-2-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Adquisición de datos de emisión acústica durante la inspección de un tanque aéreo",
-      "destacado": false
-    },
-    {
-      "titulo": "Medición de espesores por US en techo de tanque",
-      "servicios": [
-        "inspecciones"
-      ],
-      "imagen": "img/fotos/espesores-ultrasonido-techo-tanque-960.webp",
-      "srcset": "img/fotos/espesores-ultrasonido-techo-tanque-480.webp 480w, img/fotos/espesores-ultrasonido-techo-tanque-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Medición de espesores por ultrasonido en el techo de un tanque",
-      "destacado": false
-    },
-    {
-      "titulo": "Inspección visual de tanque API",
-      "servicios": [
-        "inspecciones"
-      ],
-      "imagen": "img/fotos/inspeccion-visual-tanque-api-960.webp",
-      "srcset": "img/fotos/inspeccion-visual-tanque-api-480.webp 480w, img/fotos/inspeccion-visual-tanque-api-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Inspección visual de un tanque de almacenamiento API",
-      "destacado": false
+      "alt": "Cilindros horizontales de GLP en Pampa Energía, Puerto General San Martín",
+      "destacado": false,
+      "enlace": "caso-estudio.html"
     },
     {
       "titulo": "Prueba de RCI en esfera · Refinería Bahía Blanca",
@@ -187,7 +74,7 @@
       "ancho": 1600,
       "alto": 1200,
       "alt": "Parque de esferas de GLP de Refinor en Campo Durán",
-      "destacado": false
+      "destacado": true
     },
     {
       "titulo": "Parque de esferas · YPF CILC",
@@ -271,7 +158,7 @@
       "ancho": 1600,
       "alto": 1200,
       "alt": "Unidades de proceso de la Refinería Bahía Blanca",
-      "destacado": true
+      "destacado": false
     },
     {
       "titulo": "YPF · Refinería Luján de Cuyo",
@@ -372,19 +259,19 @@
     {
       "titulo": "Prueba de hermeticidad · Tanque SASH",
       "servicios": [
-        "auditorias"
+        "sash"
       ],
       "imagen": "img/fotos/prueba-hermeticidad-sash-2-960.webp",
       "srcset": "img/fotos/prueba-hermeticidad-sash-2-480.webp 480w, img/fotos/prueba-hermeticidad-sash-2-960.webp 960w, img/fotos/prueba-hermeticidad-sash-2-1600.webp 1600w",
       "ancho": 1600,
       "alto": 2133,
       "alt": "Sensores de prueba de hermeticidad en bocas de un tanque subterráneo",
-      "destacado": false
+      "destacado": true
     },
     {
       "titulo": "Prueba de hermeticidad en boca de expendio",
       "servicios": [
-        "auditorias"
+        "sash"
       ],
       "imagen": "img/fotos/prueba-hermeticidad-sash-3-960.webp",
       "srcset": "img/fotos/prueba-hermeticidad-sash-3-480.webp 480w, img/fotos/prueba-hermeticidad-sash-3-960.webp 960w",
@@ -394,75 +281,15 @@
       "destacado": false
     },
     {
-      "titulo": "Escaneo de piso por LFET · Inspección interna",
+      "titulo": "Prueba de hermeticidad · Tanque SASH",
       "servicios": [
-        "end"
+        "sash"
       ],
-      "imagen": "img/fotos/escaneo-piso-lfet-2-960.webp",
-      "srcset": "img/fotos/escaneo-piso-lfet-2-480.webp 480w, img/fotos/escaneo-piso-lfet-2-960.webp 960w",
-      "ancho": 960,
-      "alto": 468,
-      "alt": "Técnico escaneando el piso de un tanque con equipo LFET",
-      "destacado": true
-    },
-    {
-      "titulo": "Escaneo de piso por LFET · Inspección interna",
-      "servicios": [
-        "end"
-      ],
-      "imagen": "img/fotos/escaneo-piso-mfl-960.webp",
-      "srcset": "img/fotos/escaneo-piso-mfl-480.webp 480w, img/fotos/escaneo-piso-mfl-960.webp 960w, img/fotos/escaneo-piso-mfl-1600.webp 1600w",
+      "imagen": "img/fotos/prueba-hermeticidad-sash-960.webp",
+      "srcset": "img/fotos/prueba-hermeticidad-sash-480.webp 480w, img/fotos/prueba-hermeticidad-sash-960.webp 960w, img/fotos/prueba-hermeticidad-sash-1600.webp 1600w",
       "ancho": 1600,
       "alto": 1200,
-      "alt": "Técnico realizando el escaneo de piso de un tanque por LFET",
-      "destacado": false
-    },
-    {
-      "titulo": "Calibración de equipo para escaneo de piso",
-      "servicios": [
-        "end"
-      ],
-      "imagen": "img/fotos/escaneo-piso-calibracion-960.webp",
-      "srcset": "img/fotos/escaneo-piso-calibracion-480.webp 480w, img/fotos/escaneo-piso-calibracion-960.webp 960w",
-      "ancho": 960,
-      "alto": 1280,
-      "alt": "Calibración del equipo de escaneo de piso dentro de un tanque",
-      "destacado": false
-    },
-    {
-      "titulo": "Indicación en piso de tanque · Inspección interna",
-      "servicios": [
-        "end"
-      ],
-      "imagen": "img/fotos/indicacion-piso-tanque-960.webp",
-      "srcset": "img/fotos/indicacion-piso-tanque-480.webp 480w, img/fotos/indicacion-piso-tanque-960.webp 960w",
-      "ancho": 960,
-      "alto": 720,
-      "alt": "Técnico marcando una indicación en el piso de un tanque",
-      "destacado": false
-    },
-    {
-      "titulo": "Partículas magnéticas sobre zona crítica de tanque API",
-      "servicios": [
-        "end"
-      ],
-      "imagen": "img/fotos/particulas-magneticas-tanque-api-480.webp",
-      "srcset": "img/fotos/particulas-magneticas-tanque-api-480.webp 480w",
-      "ancho": 480,
-      "alto": 855,
-      "alt": "Ensayo de partículas magnéticas sobre una zona crítica de un tanque",
-      "destacado": false
-    },
-    {
-      "titulo": "Medición de espesores por ultrasonido · Tanque horizontal",
-      "servicios": [
-        "end"
-      ],
-      "imagen": "img/fotos/espesores-ultrasonido-tanque-horizontal-480.webp",
-      "srcset": "img/fotos/espesores-ultrasonido-tanque-horizontal-480.webp 480w",
-      "ancho": 480,
-      "alto": 1041,
-      "alt": "Medición de espesores por ultrasonido en un tanque horizontal",
+      "alt": "Equipo de prueba de hermeticidad sobre un tanque subterráneo (SASH)",
       "destacado": false
     }
   ]

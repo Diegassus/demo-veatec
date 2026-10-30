@@ -493,3 +493,7 @@ a:hover { color: var(--negro); }
 @media (max-width: 700px) { .service-card--test h4 { font-size: .92rem; } }
 .split--top { align-items: start; }
 .page-hero .facts dd { font-size: 1.05rem; }
+
+/* ---------- Cierre Veatec (29/10): marcadores de contenido pendiente ---------- */
+.cert-list li.cert--pend { border-left-color: var(--linea); }
+.cert-list li.cert--pend strong, .cert-list li.cert--pend span, .trust li.pending, .trust li.pending strong { color: #6B716C; font-style: italic; }
